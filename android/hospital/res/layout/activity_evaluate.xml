@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#009999"
+    android:padding="10dp"
+     >
+    
+	<RelativeLayout 
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_marginTop="10dp"
+		android:gravity="center_vertical"
+	    >
+	    
+	    <ImageView 
+	        android:id="@+id/back_evaluate_iv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/back_hospital"
+	        android:layout_alignParentLeft="true"
+	        />
+	    
+	    
+	    <Button 
+	        android:id="@+id/order_evaluate_btn"
+	        android:layout_width="20dp"
+	        android:layout_height="20dp"
+	        android:visibility="visible"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/down_img"
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/order_evaluate_tv"
+	        android:layout_width="100dp"
+	        android:layout_height="match_parent"
+	        android:visibility="visible"
+	        android:gravity="center"
+	        android:textSize="20sp"
+	        android:textColor="#ffffff"
+	        android:text="评价"
+	        android:layout_alignRight="@id/order_evaluate_btn"
+	        />
+	    
+	     <!-- <Spinner 
+	        android:id="@+id/order_evaluate_sp"
+	        android:layout_width="100dp"
+	        android:layout_height="match_parent"
+	        android:layout_gravity="end"
+	        android:visibility="visible"
+	        android:layout_alignBaseline="@id/back_evaluate_iv"
+	        android:layout_alignParentRight="true"
+	        android:gravity="center"
+	        android:background="#009999"
+	        /> -->
+	    
+	    <TextView 
+	        android:id="@+id/city_evaluate_tv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/now_city_text"
+	         android:layout_centerHorizontal="true"
+	         android:gravity="center"
+	        android:textColor="#ffffff"
+	        android:layout_alignBaseline="@id/back_evaluate_iv"
+	        android:textSize="22sp"
+	        />
+	    
+	   
+	    
+	</RelativeLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	    
+	    <ListView 
+	        android:id="@+id/info_evaluate_lv"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_margin="10dp"
+	        ></ListView>
+	    
+	</LinearLayout>
+    
+</LinearLayout>

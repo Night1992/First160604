@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    tools:context=".MainActivity" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal"
+        >
+    <TextView 
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_top_text"
+        android:textColor="@color/main_top_color"
+        android:text="@string/select_city_text"
+        />
+    
+    <TextView 
+        android:id="@+id/search_hospital_tv"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_top_text"
+        android:textColor="@color/main_top_color"
+        android:text="1111111"
+        />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/city_hospital_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical"
+        >
+    
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            ><TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/now_city_text"
+                android:textColor="@color/main_top_color"
+                android:textSize="@dimen/main_top_text" />
+
+            <TextView
+                android:id="@+id/nowCity_hospital_tv"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_top_color"
+                android:textSize="@dimen/main_top_text" />
+            
+        </LinearLayout>
+        
+        
+    <LinearLayout
+        android:id="@+id/city_hospital_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Spinner 
+            android:id="@+id/province_hospital_sn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:gravity="center"
+            />
+        
+        <Spinner 
+            android:id="@+id/city_hospital_sn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:gravity="center"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <EditText 
+            android:id="@+id/search_main_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/main_top_color"
+            android:textSize="@dimen/main_top_text"
+            android:hint="输入内容搜索医院"
+            />
+        
+    </LinearLayout>
+        
+    </LinearLayout>
+    
+    <!-- <RelativeLayout
+        android:id="@+id/funcion_hospital_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+         >
+    
+        <ImageView 
+            android:id="@+id/hospital_evaluate_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/hospital_evaluate_iv"
+            android:layout_alignParentTop="true"
+            />
+        
+        <ImageView 
+            android:id="@+id/office_evaluate_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/hospital_evaluate_iv"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            />
+        
+        <ImageView 
+            android:id="@+id/doctor_evaluate_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/hospital_evaluate_iv"
+            android:layout_alignParentBottom="true"
+            />
+        
+        <ImageView 
+            android:id="@+id/physical_evaluate_iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/hospital_evaluate_iv"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            />
+
+        
+    </RelativeLayout> -->
+    
+    <ListView 
+        android:id="@+id/hospital_main_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:scrollbars="none"
+        />
+
+</LinearLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/evaluate_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="3dp"
+    android:background="#000"
+    android:alpha="0.8"
+    android:orientation="vertical" >
+
+    <!-- 总体评价 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+        
+        <TextView 
+            android:id="@+id/evaluate_view_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总体评价"
+            android:textSize="@dimen/main_top_text"
+            android:textColor="#ffffff"
+            />
+        
+        <ImageView 
+            android:id="@+id/evaluate_view_iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/pp_0"
+            />
+        
+    </LinearLayout>
+    <!-- 就医环境-->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+        
+        <TextView 
+            android:id="@+id/evaluate_view_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="就医环境"
+            android:textSize="@dimen/main_top_text"
+            android:textColor="#ffffff"
+            />
+        
+        <ImageView 
+            android:id="@+id/evaluate_view_iv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/pp_0"
+            />
+        
+    </LinearLayout>
+    <!-- 诊疗流程 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+        
+        <TextView 
+            android:id="@+id/evaluate_view_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="诊疗流程"
+            android:textSize="@dimen/main_top_text"
+            android:textColor="#ffffff"
+            />
+        
+        <ImageView 
+            android:id="@+id/evaluate_view_iv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/pp_0"
+            />
+        
+    </LinearLayout>
+    <!-- 诚信收费 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+        
+        <TextView 
+            android:id="@+id/evaluate_view_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="诚信收费"
+            android:textSize="@dimen/main_top_text"
+            android:textColor="#ffffff"
+            />
+        
+        <ImageView 
+            android:id="@+id/evaluate_view_iv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/pp_0"
+            />
+        
+    </LinearLayout>
+    <!-- 便民设置 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+        
+        <TextView 
+            android:id="@+id/evaluate_view_tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="便民设置"
+            android:textSize="@dimen/main_top_text"
+            android:textColor="#ffffff"
+            />
+        
+        <ImageView 
+            android:id="@+id/evaluate_view_iv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/pp_0"
+            />
+        
+    </LinearLayout>
+    <!-- 诊室布局 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+        
+        <TextView 
+            android:id="@+id/evaluate_view_tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="诊室布局"
+            android:textSize="@dimen/main_top_text"
+            android:textColor="#ffffff"
+            />
+        
+        <ImageView 
+            android:id="@+id/evaluate_view_iv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/pp_0"
+            />
+        
+    </LinearLayout>
+    <!-- 评价信息 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
+        
+        <EditText 
+            android:id="@+id/evaluate_view_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:lines="5"
+            android:background="#ffffff"
+            android:textColor="#000"
+            android:hint="请输入评价信息"
+            android:gravity="top|left"
+            />
+        
+        <Button
+            android:id="@+id/evaluate_view_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button_div"
+            android:text="提交" />
+        
+    </LinearLayout>
+
+</LinearLayout>

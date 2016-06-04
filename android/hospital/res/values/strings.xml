@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">医疗评价系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="now_city_text">当前所在城市:</string>
+    <string name="search_city_hint">輸入搜索城市</string>
+    <string name="select_city_text">选择的城市:</string>
+    <string name="hospital_evaluate_iv">评价医院</string>
+    <string name="doctor_evaluate_iv">评价医生</string>
+    <string name="physical_evaluate_iv">评价体检</string>
+    <string name="icon_evaluate_iv">查看医讯图标</string>
+    <string name="username_login_text">用户名</string>
+    <string name="password_login_text">密码</string>
+    <string name="welcome_login_text">欢迎进入医疗评价系统</string>
+    <string name="evaluate_info_btn">我要点评</string>
+    <string name="office_info_btn">科室建设</string>
+
+    <color name="main_top_color">#2F4F4F</color>
+    <color name="name_hospital_color">#8A2BE2</color>
+    <color name="environment_hospital_color">#2E8B57</color>
+    <color name="facility_hospital_color">#A52A2A</color>
+
+    <string name="title_activity_login">医疗评价系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_infomation">InfomationActivity</string>
+    <string name="title_activity_office">OfficeActivity</string>
+    <string name="title_activity_office_info">OfficeInfoActivity</string>
+    <string name="title_activity_doctor">DoctorActivity</string>
+    <string name="title_activity_evaluate_content">EvaluateContentActivity</string>
+
+</resources>

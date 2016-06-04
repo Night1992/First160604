@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".InfomationActivity" >
+
+    <include 
+        android:id="@+id/top"
+        layout="@layout/layout_top"/>
+    
+    <ImageView 
+        android:id="@+id/logo_info_iv"
+        android:layout_width="@dimen/logo_info_iv"
+        android:layout_height="@dimen/logo_info_iv"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/top"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        />
+    
+    <Button
+        android:id="@+id/offices_login_btn"
+        android:layout_width="@dimen/logo_info_iv"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_info_iv"
+        android:layout_alignLeft="@id/logo_info_iv"
+        android:background="@drawable/background_button_div"
+        android:gravity="center"
+        android:text="@string/office_info_btn" />
+    
+    <TextView 
+        android:id="@+id/name_info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="111"
+        android:maxEms="10"
+        android:textSize="@dimen/main_top_text"
+        android:textColor="@color/main_top_color"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/top"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        />
+    
+    <TextView 
+        android:id="@+id/level_info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="222"
+        android:maxEms="10"
+        android:textSize="@dimen/main_top_text"
+        android:textColor="@color/main_top_color"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/name_info_tv"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/public_praise_base_info_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_item_iv"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/level_info_tv"
+        >
+        
+    <ImageView 
+        android:id="@+id/public_praise_info_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher"
+        />
+    
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/environment_base_info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_item_iv"
+        android:text="环境 ： "
+        android:textSize="@dimen/environment_hospital_tv"
+        android:textColor="@color/environment_hospital_color"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/public_praise_base_info_iv"
+        android:gravity="left"
+        />
+    
+    <TextView 
+        android:id="@+id/environment_info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_item_iv"
+        android:text="优美"
+        android:textSize="@dimen/environment_hospital_tv"
+        android:textColor="@color/environment_hospital_color"
+        android:layout_toRightOf="@id/environment_base_info_tv"
+        android:layout_below="@id/public_praise_base_info_iv"
+        android:gravity="left"
+        />
+    
+    <TextView 
+        android:id="@+id/facility_base_info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_item_iv"
+        android:text="设施信息 ： "
+        android:textSize="@dimen/environment_hospital_tv"
+        android:textColor="@color/facility_hospital_color"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/environment_base_info_tv"
+        android:paddingLeft="5dp"
+        android:gravity="left"
+        />
+    
+    <TextView 
+        android:id="@+id/facility_info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_item_iv"
+        android:text="先进"
+        android:textSize="@dimen/environment_hospital_tv"
+        android:textColor="@color/facility_hospital_color"
+        android:layout_toRightOf="@id/facility_base_info_tv"
+        android:layout_below="@id/environment_base_info_tv"
+        android:gravity="left"
+        />
+    
+    <Button
+        android:id="@+id/evaluate_info_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_button_div"
+        android:text="@string/evaluate_info_btn" />
+    
+    <ListView 
+        android:id="@+id/evaluate_info_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_below="@id/offices_login_btn"
+        android:layout_above="@id/evaluate_info_btn"
+        />
+    
+
+</RelativeLayout>

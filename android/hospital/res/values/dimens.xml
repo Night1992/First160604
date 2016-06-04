@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_top_text">18sp</dimen>
+    <dimen name="logo_item_iv">38dp</dimen>
+    <dimen name="level_hospital_tv">16sp</dimen>
+    <dimen name="name_hospital_tv">18sp</dimen>
+    <dimen name="environment_hospital_tv">12sp</dimen>
+    <dimen name="username_login_tv">80dp</dimen>
+    <dimen name="logo_info_iv">120dp</dimen>
+    <dimen name="doctor_office_iv">50dp</dimen>
+
+</resources>

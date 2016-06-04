@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/name_office_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="office_name"
+        android:textSize="@dimen/main_top_text"
+        android:textColor="@color/main_top_color"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        />
+    
+    <TextView 
+        android:id="@+id/doctor_office_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="doctor_name"
+        android:textSize="@dimen/main_top_text"
+        android:textColor="@color/main_top_color"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/name_office_tv"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        />
+    
+    <ImageView 
+        android:id="@+id/doctor_office_iv"
+        android:layout_width="@dimen/doctor_office_iv"
+        android:layout_height="@dimen/doctor_office_iv"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentRight="true"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        />
+
+</RelativeLayout>
