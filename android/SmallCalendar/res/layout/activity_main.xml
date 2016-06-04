@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.moxiu.mycalendar.MainActivity" >
+    
+    <!-- 程序头：退出   日历小应用   今天 -->
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cccccc">
+        
+        <Button 
+            android:id="@+id/exit_calendar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            android:textSize="20sp"
+            android:layout_alignParentLeft="true"/>
+        
+        <TextView 
+            android:id="@+id/appname_calendar_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+        
+        <Button 
+            android:id="@+id/today_calendar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/today"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        >
+        <TextView 
+            android:id="@+id/nowdate_calendar_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/init_date"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"/>
+        
+        <TextView 
+            android:id="@+id/p_month_calendar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previor_month"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@id/nowdate_calendar_tv"
+            
+            android:layout_margin="5dp"/>
+        
+        <TextView 
+            android:id="@+id/p_year_calendar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previor_year"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@id/p_month_calendar_btn"
+            android:layout_margin="5dp"/>
+        
+        <TextView 
+            android:id="@+id/n_month_calendar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_month"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/nowdate_calendar_tv"
+            android:layout_margin="5dp"
+           />
+        
+        <TextView 
+            android:id="@+id/n_year_calendar_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_year"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/n_month_calendar_btn"
+            android:layout_margin="5dp"
+            
+            />
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        >
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sunday"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/monday"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tuesday"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wednesday"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/thursday"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/friday"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/saturday"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+        
+    </LinearLayout>
+    
+    <GridView 
+        android:id="@+id/calendar_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:numColumns="7"
+        />
+
+
+</LinearLayout>
