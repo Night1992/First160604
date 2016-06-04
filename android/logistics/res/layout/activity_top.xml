@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+    
+	<Button 
+	    android:id="@+id/select_base_btn"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="基本信息"
+	    />
+    
+	<Button 
+	    android:id="@+id/sent_btn"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="已发货物"
+	    />
+	
+	<Button 
+	    android:id="@+id/unsent_btn"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="未发货物"
+	    />
+    
+	<Button 
+	    android:id="@+id/sigh_cargo"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="货物签收"
+	    />
+</LinearLayout>

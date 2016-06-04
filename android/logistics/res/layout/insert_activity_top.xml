@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+    
+	<Button 
+	    android:id="@+id/insert_user"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="用户"
+	    />
+    
+	<Button 
+	    android:id="@+id/insert_cargo"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="货物"
+	    />
+	
+	<Button 
+	    android:id="@+id/insert_seller"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="卖家"
+	    />
+    
+	<Button 
+	    android:id="@+id/insert_buyer"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="买家"
+	    />
+	
+	<Button 
+	    android:id="@+id/insert_logistics"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="订单"
+	    />
+	
+	<Button 
+	    android:id="@+id/insert_sentLogistics"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:text="物流"
+	    />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">物流配送系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_util">UtilActivity</string>
+    <string name="title_activity_top">TopActivity</string>
+    <string name="title_activity_foot">FootActivity</string>
+    <string name="title_activity_base_info">快递员功能界面</string>
+    <string name="title_activity_sent_info">已发货物信息</string>
+    <string name="title_activity_unsent_info">未发货物信息</string>
+    <string name="title_activity_sign_cargo">货物签收功能</string>
+    <string name="title_activity_insert_cargo">新增货物</string>
+    <string name="title_activity_insert_user">新增用户</string>
+    <string name="title_activity_insert_seller">新增卖家</string>
+    <string name="title_activity_insert_buyer">新增买家</string>
+    <string name="title_activity_logistics">新增订单</string>
+    <string name="title_activity_insert_sent_logistics">新增物流</string>
+    <string name="title_activity_qr_code">QrCodeActivity</string>
+    <string name="title_activity_update_dialog">数据修改</string>
+    <string name="title_activity_insert_info">管理员功能界面</string>
+
+</resources>
